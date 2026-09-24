@@ -12,6 +12,10 @@
     <properties>
         <maven.compiler.release>25</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- The one plugin this template starts with: plugin-basics, the nine JDK value types
+             (text, numbers, durations, dates...) Studio's editors and the Parameters window offer.
+             A property, like the gamebot's SDK pin, so a release can move it in one place. -->
+        <botmaker.basics.version>v0.0.8</botmaker.basics.version>
     </properties>
 
     <!--
@@ -35,6 +39,14 @@
     </repositories>
 
     <dependencies>
+        <!-- Brings the value types and nothing else: no palette of bot calls, no capture, no pilot.
+             Installing the SDK later from Manage Plugins brings its own basics; remove this entry then,
+             or it wins by nearest-wins and pins the SDK to a basics it was not built against. -->
+        <dependency>
+            <groupId>com.github.LiQiyeDev</groupId>
+            <artifactId>botmaker-plugin-basics</artifactId>
+            <version>${botmaker.basics.version}</version>
+        </dependency>
         <!-- The one entry that is not about BotMaker: what a Maven project comes with. -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>

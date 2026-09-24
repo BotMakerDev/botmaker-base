@@ -6,8 +6,9 @@ package com.botmaker.base;
  * <p>BotMaker wrote this file once, when the project was created, and will never touch it
  * again. Every line of it is yours — rename it, split it up, throw it away.
  *
- * <p>This is a plain Java project: it has a pom, a source folder and this main(). To make it
- * a bot, add the BotMaker SDK from <b>Project ▸ Manage Plugins</b> — it is a plugin like any
+ * <p>This is a plain Java project with one plugin, BotMaker Basics: the everyday value types
+ * (text, numbers, durations, dates) that Project ▸ Parameters and the block editor offer. To make
+ * it a bot, add the BotMaker SDK from <b>Project ▸ Manage Plugins</b> — it is a plugin like any
  * other, and installing it brings the palette, the pictures, the capture tools and the rest.
  */
 public class Base {
