@@ -43,7 +43,7 @@
              Installing the SDK later from Manage Plugins brings its own basics; remove this entry then,
              or it wins by nearest-wins and pins the SDK to a basics it was not built against. -->
         <dependency>
-            <groupId>com.github.LiQiyeDev</groupId>
+            <groupId>com.github.BotMakerDev</groupId>
             <artifactId>botmaker-plugin-basics</artifactId>
             <version>${botmaker.basics.version}</version>
         </dependency>
